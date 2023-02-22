@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Severyanocha-Online-Shop/static/css/main.ec97016f.css",
-    "main.js": "/Severyanocha-Online-Shop/static/js/main.bbc7917e.js",
+    "main.js": "/Severyanocha-Online-Shop/static/js/main.f63e31be.js",
     "index.html": "/Severyanocha-Online-Shop/index.html",
     "main.ec97016f.css.map": "/Severyanocha-Online-Shop/static/css/main.ec97016f.css.map",
-    "main.bbc7917e.js.map": "/Severyanocha-Online-Shop/static/js/main.bbc7917e.js.map"
+    "main.f63e31be.js.map": "/Severyanocha-Online-Shop/static/js/main.f63e31be.js.map"
   },
   "entrypoints": [
     "static/css/main.ec97016f.css",
-    "static/js/main.bbc7917e.js"
+    "static/js/main.f63e31be.js"
   ]
 }
