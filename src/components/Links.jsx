@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 export function Links({ title }) {
     return (
         <ul className="links">
-            <Link to="/">
+            <Link to="/Severyanocha-Online-Shop">
                 <li>Главная</li>
             </Link>
             <li>

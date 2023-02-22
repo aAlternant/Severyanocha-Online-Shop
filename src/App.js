@@ -127,7 +127,7 @@ function App() {
                 searchValue={searchValue}
             />
             <Switch>
-                <Route path="/cart" exact>
+                <Route path="/Severyanocha-Online-Shop//cart" exact>
                     <img src="Severyanocha-Online-Shop/img/banner-2.svg" alt="Тут был баннер"></img>
                     <Cart
                         onClickRemove={removeItem}
@@ -136,7 +136,7 @@ function App() {
                         setCount={setCount}
                     />
                 </Route>
-                <Route path="/" exact>
+                <Route path="/Severyanocha-Online-Shop" exact>
                     <img src="Severyanocha-Online-Shop/img/banner.svg" alt="Тут был баннер"></img>
                     <Main
                         items={items}
@@ -148,7 +148,7 @@ function App() {
                         loading={loadStatus}
                     />
                 </Route>
-                <Route path="/favorites" exact>
+                <Route path="/Severyanocha-Online-Shop//favorites" exact>
                     <img src="Severyanocha-Online-Shop/img/banner.svg" alt="Тут был баннер" />
                     <Favorites
                         onAddToFavorite={onAddToFavorite}
@@ -156,7 +156,7 @@ function App() {
                         items={favorites}
                     />
                 </Route>
-                <Route path="/orders" exact>
+                <Route path="/Severyanocha-Online-Shop/orders" exact>
                     <img src="Severyanocha-Online-Shop/img/banner-2.svg" alt="Тут был баннер" />
                     <Orders orderList={orderList} clearOrders={clearOrders} />
                 </Route>

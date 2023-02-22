@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Header(props) {
     return (
         <header className="d-flex justify-between align-center">
-            <Link to="/">
+            <Link to="/Severyanocha-Online-Shop">
                 <div className="headerInfo" onClick={props.onClickLogo}>
                     <img src="/Severyanocha-Online-Shop/img/logo.svg" alt="logo" className="logo" />
                     <h1>СЕВЕРЯНОЧКА</h1>
