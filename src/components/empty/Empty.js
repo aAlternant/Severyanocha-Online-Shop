@@ -7,11 +7,7 @@ export function Empty({ img, title, styleName }) {
             <b>{title}</b>
             <Link to="/">
                 <button>
-                    <img
-                        src="Severyanocha-Online-Shop/img/arrow-in-emptycart.png"
-                        className="arrow"
-                        alt="Arrow"
-                    />
+                    <img src="/img/arrow-in-emptycart.png" className="arrow" alt="Arrow" />
                     Вернуться
                 </button>
             </Link>

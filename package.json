@@ -1,7 +1,7 @@
 {
     "name": "severyanochka",
     "version": "0.1.0",
-    "homepage": "https://aAlternant.github.io/",
+    "homepage": "https://aAlternant.github.io/Severyanocha-Online-Shop",
     "private": false,
     "dependencies": {
         "@testing-library/jest-dom": "^5.16.5",
