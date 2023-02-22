@@ -14,7 +14,7 @@ function CartItem({
 
     return (
         <div className="incartItem d-flex">
-            <img src={'Severyanocha-Online-Shop' + img} alt="Item" />
+            <img src={img} alt="Item" />
             <div>
                 <h3 className="ml-10 mb-10">{title}</h3>
                 <ul className="d-flex flex-row ml-10">

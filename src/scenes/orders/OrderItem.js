@@ -3,7 +3,7 @@ import './orders.scss';
 export function OrderItem(props) {
     return (
         <div className="order-item">
-            <img src={'Severyanocha-Online-Shop' + props.img} alt="Item" />
+            <img src={props.img} alt="Item" />
             <div className="prices d-flex flex-row">
                 <div className="classicPrice">
                     <p>{props.price.toFixed(2)} ₽</p>
