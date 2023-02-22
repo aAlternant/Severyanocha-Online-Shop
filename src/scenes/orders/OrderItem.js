@@ -16,7 +16,11 @@ export function OrderItem(props) {
             </div>
             <h5 className="ml-15">{props.title}</h5>
             <div className="starsBlock">
-                <img src="/img/rating.svg" alt="Rating" className="rating" />
+                <img
+                    src="Severyanocha-Online-Shop/img/rating.svg"
+                    alt="Rating"
+                    className="rating"
+                />
             </div>
         </div>
     );
