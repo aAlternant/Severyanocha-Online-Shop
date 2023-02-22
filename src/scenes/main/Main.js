@@ -57,7 +57,7 @@ function Main(props) {
                                   title={item.title}
                                   price={+item.price}
                                   discount={+item.discount}
-                                  img={'Severyanocha-Online-Shop' + item.img}
+                                  img={item.img}
                                   loading={props.loading}
                                   getProcents={getProcents(item)}
                               />
