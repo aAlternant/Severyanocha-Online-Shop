@@ -45,7 +45,7 @@ function Cart({ items, onClickRemove, makeOrder, setCount }) {
             <Links title="Корзина" />
             <h2>Корзина</h2>
             <div className="d-flex align-center">
-                <img src="Severyanocha-Online-Shop/img/checkbox.svg" alt="Checkbox" />
+                <img src="/img/checkbox.svg" alt="Checkbox" />
                 <span className="ml-10">Выделить все</span>
                 <span className="clearSelected ml-50">Удалить выбранные</span>
             </div>
@@ -55,7 +55,7 @@ function Cart({ items, onClickRemove, makeOrder, setCount }) {
                     items.map((item) => (
                         <CartItem
                             key={item.id}
-                            img={'Severyanocha-Online-Shop' + item.img}
+                            img={'' + item.img}
                             price={item.price}
                             title={item.title}
                             onClickRemove={() => onClickRemove(item.id)}
@@ -67,7 +67,7 @@ function Cart({ items, onClickRemove, makeOrder, setCount }) {
                     ))
                 ) : (
                     <Empty
-                        img="Severyanocha-Online-Shop/img/empty-cart-unscreen.gif"
+                        img="/img/empty-cart-unscreen.gif"
                         title="Тут совсем пусто. Думаю стоит что-то добавить!"
                         styleName="emptyCart"
                     />

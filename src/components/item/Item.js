@@ -26,14 +26,14 @@ function Item(props) {
             {isFavorite ? (
                 <img
                     onClick={onAddToFavorite}
-                    src="Severyanocha-Online-Shop/img/red-heart.svg"
+                    src="/img/red-heart.svg"
                     className="markedSvg"
                     alt="Favorite"
                 />
             ) : (
                 <img
                     onClick={onAddToFavorite}
-                    src="Severyanocha-Online-Shop/img/heart.svg"
+                    src="/img/heart.svg"
                     className="markedSvg"
                     alt="NonFavourite"
                 />
@@ -56,11 +56,7 @@ function Item(props) {
             </div>
             <h5 className="ml-15 mr-5">{props.title}</h5>
             <div className="starsBlock">
-                <img
-                    src="Severyanocha-Online-Shop/img/rating.svg"
-                    alt="Rating"
-                    className="rating"
-                />
+                <img src="/img/rating.svg" alt="Rating" className="rating" />
             </div>
             <button className={inCart ? 'disabled-button' : 'button'} onClick={onClickButton}>
                 {inCart ? 'Уже в корзине' : 'В корзину'}

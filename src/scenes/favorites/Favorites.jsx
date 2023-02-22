@@ -17,7 +17,7 @@ function Favorites({ items, onAddToFavorite }) {
                             title={item.title}
                             price={+item.price}
                             discount={+item.discount}
-                            img={'Severyanocha-Online-Shop' + item.img}
+                            img={item.img}
                             getProcents={Math.round((item.discount * 100) / item.price)}
                         />
                     ))

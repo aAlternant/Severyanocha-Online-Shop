@@ -25,15 +25,11 @@ function CartItem({
                 </ul>
                 <div className="countBtn d-flex flex-row align-center justify-center">
                     <div className="minus-count" onClick={() => (count > 1 ? setCountMinus() : 1)}>
-                        <img
-                            src="Severyanocha-Online-Shop/img/minus.svg"
-                            className="minus-svg"
-                            alt="Minus"
-                        />
+                        <img src="/img/minus.svg" className="minus-svg" alt="Minus" />
                     </div>
                     <span>{count}</span>
                     <img
-                        src="Severyanocha-Online-Shop/img/plus.svg"
+                        src="/img/plus.svg"
                         alt="Plus"
                         className="plus-count"
                         onClick={() => setCountPlus()}
@@ -43,7 +39,7 @@ function CartItem({
                     <b>{((price - discount) * count).toFixed(2)} ₽</b>
                 </p>
                 <img
-                    src="Severyanocha-Online-Shop/img/remove-cross.png"
+                    src="/img/remove-cross.png"
                     alt="Remove"
                     className="remove-cross"
                     onClick={onClickRemove}

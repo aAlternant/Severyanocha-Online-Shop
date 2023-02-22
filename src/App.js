@@ -128,7 +128,7 @@ function App() {
             />
             <Switch>
                 <Route path="/cart" exact>
-                    <img src="Severyanocha-Online-Shop/img/banner-2.svg" alt="Тут был баннер"></img>
+                    <img src="/img/banner-2.svg" alt="Тут был баннер"></img>
                     <Cart
                         onClickRemove={removeItem}
                         items={inCartItems}
@@ -137,7 +137,7 @@ function App() {
                     />
                 </Route>
                 <Route path="/" exact>
-                    <img src="Severyanocha-Online-Shop/img/banner.svg" alt="Тут был баннер"></img>
+                    <img src="/img/banner.svg" alt="Тут был баннер"></img>
                     <Main
                         items={items}
                         inCartItems={inCartItems}
@@ -149,7 +149,7 @@ function App() {
                     />
                 </Route>
                 <Route path="/favorites" exact>
-                    <img src="Severyanocha-Online-Shop/img/banner.svg" alt="Тут был баннер" />
+                    <img src="/img/banner.svg" alt="Тут был баннер" />
                     <Favorites
                         onAddToFavorite={onAddToFavorite}
                         setFavoritesList={setFavoritesList}
@@ -157,7 +157,7 @@ function App() {
                     />
                 </Route>
                 <Route path="/orders" exact>
-                    <img src="Severyanocha-Online-Shop/img/banner-2.svg" alt="Тут был баннер" />
+                    <img src="/img/banner-2.svg" alt="Тут был баннер" />
                     <Orders orderList={orderList} clearOrders={clearOrders} />
                 </Route>
             </Switch>

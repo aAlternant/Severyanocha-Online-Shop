@@ -57,7 +57,7 @@ function Main(props) {
                                   title={item.title}
                                   price={+item.price}
                                   discount={+item.discount}
-                                  img={'Severyanocha-Online-Shop' + item.img}
+                                  img={item.img}
                                   loading={props.loading}
                                   getProcents={getProcents(item)}
                               />
@@ -66,12 +66,8 @@ function Main(props) {
             <div>
                 <h2>Специальные предложения</h2>
                 <div className="d-flex flex-row align-center">
-                    <img
-                        src="Severyanocha-Online-Shop/banners/card-banner1.svg"
-                        className="pt-15"
-                        alt="Банер"
-                    />
-                    <img src="Severyanocha-Online-Shop/banners/card-banner2.svg" alt="Банер" />
+                    <img src="/banners/card-banner1.svg" className="pt-15" alt="Банер" />
+                    <img src="/banners/card-banner2.svg" alt="Банер" />
                 </div>
             </div>
             <div className="mapsBlock">

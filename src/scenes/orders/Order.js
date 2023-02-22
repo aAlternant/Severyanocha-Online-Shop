@@ -14,7 +14,7 @@ export function Order({ id, sum, status, day, month, year, orderItems }) {
                 <div className="additional-info">
                     <span>{sum} ₽</span>
                     <button>
-                        <img src="Severyanocha-Online-Shop/img/refresh-cw.svg" alt="refresh" />
+                        <img src="/img/refresh-cw.svg" alt="refresh" />
                         Повторить заказ
                     </button>
                 </div>
@@ -25,7 +25,7 @@ export function Order({ id, sum, status, day, month, year, orderItems }) {
                         count={item.count}
                         title={item.title}
                         price={item.price - item.discount}
-                        img={'Severyanocha-Online-Shop' + item.img}
+                        img={item.img}
                     />
                 ))}
             </div>
