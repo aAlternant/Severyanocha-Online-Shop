@@ -6,7 +6,7 @@ function Header(props) {
         <header className="d-flex justify-between align-center">
             <Link to="/">
                 <div className="headerInfo" onClick={props.onClickLogo}>
-                    <img src="Severyanocha-Online-Shop/img/logo.svg" alt="logo" className="logo" />
+                    <img src="/Severyanocha-Online-Shop/img/logo.svg" alt="logo" className="logo" />
                     <h1>СЕВЕРЯНОЧКА</h1>
                 </div>
             </Link>
@@ -17,7 +17,7 @@ function Header(props) {
                         placeholder="Поиск товара"
                         onChange={props.onChangeSearchInput}
                         value={props.searchValue}></input>
-                    <img src="Severyanocha-Online-Shop/img/search.svg" alt="Search" />
+                    <img src="/Severyanocha-Online-Shop/img/search.svg" alt="Search" />
                 </div>
             </div>
             <div className="headerButtons">
