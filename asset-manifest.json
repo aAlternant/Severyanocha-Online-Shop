@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Severyanocha-Online-Shop/static/css/main.ec97016f.css",
+    "main.js": "/Severyanocha-Online-Shop/static/js/main.bbc7917e.js",
+    "index.html": "/Severyanocha-Online-Shop/index.html",
+    "main.ec97016f.css.map": "/Severyanocha-Online-Shop/static/css/main.ec97016f.css.map",
+    "main.bbc7917e.js.map": "/Severyanocha-Online-Shop/static/js/main.bbc7917e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec97016f.css",
+    "static/js/main.bbc7917e.js"
+  ]
+}
